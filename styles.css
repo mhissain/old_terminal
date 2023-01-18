@@ -10,7 +10,7 @@ body {
     #002b36, black 120%
   );
   height: 100vh;
-  text-shadow: 0 0 5px #C8C8C8
+  
 }
 
 .crt::after {
@@ -39,7 +39,7 @@ body {
   }
 
   .crt {
-    animation textShadow 4.6s infinite;
+    animation: textShadow 4.9s infinite;
 }
 
 @keyframes textShadow {
