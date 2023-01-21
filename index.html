@@ -15,12 +15,12 @@
 
 
 <body class="crt">
-  <h1>Teraati Port Authority Terminal</h1>
+  <div id="log-header"><h1>Teraati Port Authority Terminal</h1></div>
   <br></br>
   
-  <div>
+  <div id="form">
     <form method="post" action="/form" autocomplete="off">
-    <span>Please enter your credentials below. </span>
+      <div><span>Please enter your credentials below. </span>
    </div>
    <div>
     <span>Username:  </span>&nbsp;
@@ -30,11 +30,12 @@
     <span>Password:  </span>&nbsp;
     <input id="password"/>
    </div>
-  </form>
-  <br>I'm sorry; I don't know how to make a log-in button yet.</br>
-  <p>Please contact IT.</p>
-  <br><br>
-  <p>....¯\_(ツ)_/¯....</p>
+   <button onclick="window.location.href='new.html';">Log-in.</button>
+  </form></div>
+  <br><div id="goofy"><p>I'm sorry; I don't know how to make a log-in button yet.</p></div>
+    <div><p>Please contact IT.</p></div>
+    <br>
+  <div><p>....¯\_(ツ)_/¯....</p></div>
 
   <footer id="footer"><p>This product is licensed and maintained by the Scholar's Tower by Royal Charter, XXXX. Version 3.02.3</p></footer>
 </body>
