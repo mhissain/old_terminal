@@ -1,15 +1,23 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html, body {
+    height: 100%;
     margin: 0;
-}
+    overflow: hidden;
+ }
+
 
 body {
-    font: 1.3rem Inconsolata, monospace;
+    
+    border: 10px solid rgba(5, 55, 62, 0.768);
+    font: 1.3rem 'VT323', Inconsolata, monospace;
     color: white;
     background-color: black;
-  background-image: radial-gradient(
+    background-image: radial-gradient(
     #002b36, black 120%
   );
-  height: 100vh;
+    min-height: 100%;
+    width: 100%;
   
 }
 
